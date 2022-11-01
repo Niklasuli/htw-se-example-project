@@ -4,7 +4,7 @@ Vorname Nachname <email>
 :source-highlighter: rouge
 :toc: 
 :toc-title: Inhaltsverzeichnis
-
+:imagesdir: images
 
 // Platzhalter für weitere Dokumenten-Attribute 
 
@@ -30,6 +30,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 .. Step 2a
 .. Step 2b
 . Step 3
+
 === Tabellen und Textformatierung
 [cols="1,1,1"]
 |===
@@ -60,3 +61,10 @@ int main(int argc, char* argv[])
 ----
 
 === Bilder
+.Testbild 1
+image::screenshot.jpg[]
+
+=== Verweise
+- Überschrift: <<Quellcode>>
+- Siehe: <<Tabellen und Textformatierung>>
+- Siehe: <<Bilder>>
