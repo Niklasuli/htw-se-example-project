@@ -68,3 +68,11 @@ image::screenshot.jpg[]
 - Überschrift: <<Quellcode>>
 - Siehe: <<Tabellen und Textformatierung>>
 - Siehe: <<Bilder>>
+
+=== Includes
+
+.hello_world.c - main()
+[source, c]
+----
+include::../src/hello_world.c[lines=3..7]
+----
